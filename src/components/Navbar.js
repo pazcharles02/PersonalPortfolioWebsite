@@ -1,8 +1,10 @@
 export default function Navbar() {
 
     return (
-        <div className="Navbar">
-            yeet
-        </div>
+        <section id="Navbar">
+            <div>
+                navbar
+            </div>
+        </section>
     );
 }

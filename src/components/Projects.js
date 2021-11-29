@@ -1,8 +1,13 @@
+import profile_picture from '../pfp.jpg';
+
 export default function Projects() {
 
     return (
-        <div className="Projects">
-            yeet
-        </div>
+        <section id="Projects">
+            <div id="projects-div">
+                <img src={profile_picture} alt="profile"/>
+                projects
+            </div>
+        </section>
     );
 }

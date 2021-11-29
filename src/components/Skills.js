@@ -1,8 +1,10 @@
 export default function Skills() {
 
     return (
-        <div className="Skills">
-            yeet
-        </div>
+        <section id="Skills">
+            <div>
+                skills
+            </div>
+        </section>
     );
 }
