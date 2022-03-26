@@ -1,0 +1,22 @@
+body {
+    background-color: darkblue;
+}
+
+#navbar {
+    height: 5vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    display: block;
+    transition: background-color 0.2s;
+}
+
+.navbar-element {
+    height: 5vh;
+    width: calc(100% / 4);
+    float: left;
+    text-align: center;
+    transition: background-color 0.2s;
+    padding-top: 10px;
+    cursor: pointer;
+}
