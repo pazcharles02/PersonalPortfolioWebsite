@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css"
 import About from './components/about/About'
 import Contact from "./components/contact/Contact";
 import Experience from "./components/experience/Experience";
@@ -22,6 +23,7 @@ function App() {
             <Portfolio />
             <Contact />
             <Footer />
+            reeeeeeeeeeee
         </React.Fragment>
     );
 }

@@ -1,11 +1,12 @@
 import React from "react";
 import "./nav.css"
+import {AiOutlineHome} from "react-icons/all";
 
 function Nav() {
     return (
-        <React.Fragment>
-
-        </React.Fragment>
+        <nav>
+            <a href="#"><AiOutlineHome/></a>
+        </nav>
     )
 }
 

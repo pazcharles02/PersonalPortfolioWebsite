@@ -1,4 +1,4 @@
-import profile_picture from '../pfp.jpg';
+import profile_picture from '../assets/pfp.jpg';
 
 export default function Projects() {
 
