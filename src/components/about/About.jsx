@@ -3,9 +3,9 @@ import "./about.css"
 
 function About() {
     return (
-        <React.Fragment>
-
-        </React.Fragment>
+        <section id="about">
+            About
+        </section>
     )
 }
 

@@ -3,9 +3,9 @@ import "./footer.css"
 
 function Footer() {
     return (
-        <React.Fragment>
-
-        </React.Fragment>
+        <section id="About">
+            Footer
+        </section>
     )
 }
 

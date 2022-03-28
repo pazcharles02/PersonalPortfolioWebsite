@@ -3,9 +3,9 @@ import "./contact.css"
 
 function Contact() {
     return (
-        <React.Fragment>
-
-        </React.Fragment>
+        <section id="contact">
+            Contact
+        </section>
     )
 }
 

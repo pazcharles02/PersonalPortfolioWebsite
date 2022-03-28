@@ -3,9 +3,9 @@ import "./portfolio.css"
 
 function Portfolio() {
     return (
-        <React.Fragment>
-
-        </React.Fragment>
+        <section id="portfolio">
+            Portfolio
+        </section>
     )
 }
 
