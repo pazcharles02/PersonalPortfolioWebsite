@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css"
-import ME from "../../assets/pfp.jpg"
+import ME from "../../assets/pfpb.jpg"
 import {FaAward, VscFolderLibrary} from "react-icons/all";
 
 function About() {
@@ -26,12 +26,27 @@ function About() {
                         <article className="about__card">
                             <VscFolderLibrary className="about__icon"/>
                             <h5>Projects</h5>
-                            <small>5+ Completed!</small>
+                            <small>10+ Completed!</small>
                         </article>
                     </div>
 
                     <p>
-                        REEEEEEEEEEEE Lorem ipsum go here
+                        Hey! I'm Charles and I'm an aspiring software developer.
+                        Software development is something I only really took interest in
+                        a few years ago, but it has since captivated my heart with all
+                        of its intricacies and enablement of allowing me to create virtually
+                        anything I can imagine!
+                    </p>
+                    <p>
+                        A large part of my life includes my hobby of livestreaming myself
+                        playing video games on Twitch. Naturally, a big interest of mine in
+                        the world of computer science is the development of video games, and
+                        a large long-term goal of mine for the future is to develop a video
+                        game of my own someday.
+                    </p>
+                    <p>
+                        Currently, a big interest of mine lies in backend development, but
+                        I'm open to taking part in fullstack or  frontend if I may need to!
                     </p>
 
                     <a href={"#contact"} className="btn btn-primary">Let's Talk</a>

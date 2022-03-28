@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 125vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -35,14 +35,17 @@ header {
 }
 
 .me {
-    width: 22rem;
-    height: 30rem;
+    width: 50rem;
+    height: 50rem;
     position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
+    left: calc(50% - 25rem);
+    margin-top: 0;
     border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.me > img {
+    border-radius: 3rem;
 }
 
 .scroll__down {
@@ -53,8 +56,6 @@ header {
     font-weight: 200;
     font-size: 0.9rem;
 }
-
-
 
 @media screen and (max-width: 1024px) {
     header {

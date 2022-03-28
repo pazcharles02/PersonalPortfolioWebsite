@@ -1,6 +1,6 @@
 import React from "react";
 import "./nav.css"
-import {AiOutlineHome, BiBook, AiOutlineUser, RiServiceLine, BiMessageAltDetail} from "react-icons/all";
+import {AiOutlineHome, BiBook, AiOutlineUser, BiMessageAltDetail} from "react-icons/all";
 import {useState} from "react"
 
 function Nav() {
@@ -13,8 +13,6 @@ function Nav() {
                className={activeNav === "#about" ? "active" : ""}><AiOutlineUser/></a>
             <a href={"#experience"} onClick={() => setActiveNav("#experience")}
                className={activeNav === "#experience" ? "active" : ""}><BiBook/></a>
-            <a href={"#services"} onClick={() => setActiveNav("#services")}
-               className={activeNav === "#services" ? "active" : ""}><RiServiceLine/></a>
             <a href={"#contact"} onClick={() => setActiveNav("#contact")}
                className={activeNav === "#contact" ? "active" : ""}><BiMessageAltDetail/></a>
         </nav>
