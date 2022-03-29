@@ -25,6 +25,13 @@
 
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
+    font-size: 2em;;
+    color: var(--color-primary);
+}
+
+.portfolio__item p {
+    margin: 1.2rem 0 2rem;
+    color: var(--color-white);
 }
 
 .portfolio__item-cta {
