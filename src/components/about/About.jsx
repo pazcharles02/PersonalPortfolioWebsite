@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css"
 import ME from "../../assets/pfpb.jpg"
-import {FaAward, VscFolderLibrary} from "react-icons/all";
+import {CgPiano, FaAward, IoGameController, VscFolderLibrary} from "react-icons/all";
 
 function About() {
     return (
@@ -27,6 +27,16 @@ function About() {
                             <VscFolderLibrary className="about__icon"/>
                             <h5>Projects</h5>
                             <small>10+ Completed!</small>
+                        </article>
+                        <article className="about__card">
+                            <CgPiano className="about__icon"/>
+                            <h5>Musician</h5>
+                            <small>I love playing the piano, guitar, and singing!</small>
+                        </article>
+                        <article className="about__card">
+                            <IoGameController className="about__icon"/>
+                            <h5>Gamer</h5>
+                            <small>Video games are my favourite pastime!</small>
                         </article>
                     </div>
 
