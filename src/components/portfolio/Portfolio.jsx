@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css"
-import IMG1 from "../../assets/portfolio1.jpg"
+import IMG1 from "../../assets/cmd-gif.gif"
 import IMG2 from "../../assets/portfolio2.jpg"
 import IMG3 from "../../assets/portfolio3.jpg"
 import IMG4 from "../../assets/portfolio4.jpg"
@@ -67,7 +67,6 @@ function Portfolio() {
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio__item-cta">
                         <a href="https://github.com" className="btn">GitHub</a>
-                        <a href="https://dribbble.com/Alien_pixels" className="btn btn-primary" target="_blank">Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio__item">
@@ -77,7 +76,6 @@ function Portfolio() {
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio__item-cta">
                         <a href="https://github.com" className="btn">GitHub</a>
-                        <a href="https://dribbble.com/Alien_pixels" className="btn btn-primary" target="_blank">Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio__item">
@@ -87,7 +85,6 @@ function Portfolio() {
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio__item-cta">
                         <a href="https://github.com" className="btn">GitHub</a>
-                        <a href="https://dribbble.com/Alien_pixels" className="btn btn-primary" target="_blank">Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio__item">
@@ -97,7 +94,6 @@ function Portfolio() {
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio__item-cta">
                         <a href="https://github.com" className="btn">GitHub</a>
-                        <a href="https://dribbble.com/Alien_pixels" className="btn btn-primary" target="_blank">Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio__item">
@@ -107,7 +103,6 @@ function Portfolio() {
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio__item-cta">
                         <a href="https://github.com" className="btn">GitHub</a>
-                        <a href="https://dribbble.com/Alien_pixels" className="btn btn-primary" target="_blank">Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio__item">
@@ -117,7 +112,6 @@ function Portfolio() {
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio__item-cta">
                         <a href="https://github.com" className="btn">GitHub</a>
-                        <a href="https://dribbble.com/Alien_pixels" className="btn btn-primary" target="_blank">Live Demo</a>
                     </div>
                 </article>
             </div>

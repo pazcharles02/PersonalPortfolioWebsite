@@ -14,13 +14,13 @@ function Contact() {
                     <article className="contact__option">
                         <MdOutlineEmail className="contact__option-icon"/>
                         <h4>Email</h4>
-                        <h5>dummyegator@gmail.com</h5>
+                        <h5>pazcharles02@gmail.com</h5>
                         <a href="mailto:pazcharles02@gmail.com" target="_blank">Send a message</a>
                     </article>
                     <article className="contact__option">
                         <BsLinkedin className="contact__option-icon"/>
                         <h4>LinkedIn</h4>
-                        <h5>dummyegator@gmail.com</h5>
+                        <h5>Charles Paz</h5>
                         <a href="https://www.linkedin.com/in/charles-paz/" target="_blank">My LinkedIn Profile</a>
                     </article>
                 </div>
