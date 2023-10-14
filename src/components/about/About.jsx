@@ -37,6 +37,7 @@ function About() {
                             <IoGameController className="about__icon"/>
                             <h5>Gamer</h5>
                             <small>Video games are my favourite pastime!</small>
+                            <h6>psst, check out my twitch right <a href="https://twitch.tv/wokkibokki" target="_blank"><br/><span>HERE</span></a></h6>
                         </article>
                     </div>
 
@@ -56,7 +57,9 @@ function About() {
                     </p>
                     <p>
                         Currently, a big interest of mine lies in backend development, but
-                        I'm open to taking part in fullstack or  frontend if I may need to!
+                        I'm open to taking part in fullstack or  frontend, as I'm always
+                        looking to grow, learn, and absorb as much knowledge as I possibly
+                        can!
                     </p>
 
                     <a href={"#contact"} className="btn btn-primary">Let's Talk</a>
