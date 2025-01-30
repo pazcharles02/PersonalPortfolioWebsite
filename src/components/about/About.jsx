@@ -21,7 +21,7 @@ function About() {
                         <article className="about__card">
                             <FaAward className="about__icon"/>
                             <h5>Experience</h5>
-                            <small>None! Hopefully you can be my first :D</small>
+                            <small>I've worked at Apple for over 2 years, and currently still do, as an Operations Specialist!</small>
                         </article>
                         <article className="about__card">
                             <VscFolderLibrary className="about__icon"/>

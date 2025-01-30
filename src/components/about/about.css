@@ -79,6 +79,7 @@ h6 > a, h6 > a:hover, h6 > a:focus, h6 > a:active {
 
 .about__card > h6 {
     color: var(--color-bg-variant);
+    vertical-align: auto;
     text-align: center;
     position: absolute;
 }
